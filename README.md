@@ -15,9 +15,9 @@ Skolotāja un tehniskā darbinieka loma ietver pamanīta remontdarba nepiecieša
 Saimnieks saņem pieteiktos remontdarbu sarakstu un veic šo remontdarbu norādot datumu, kad tas ir izpildīts.
 
 ## Datu klases
--	Lietotāji
--	Mācību kabinetu uzskaite
--	Korpusa norāde
+-	Lietotāji ar lomām
+-	Remontdarbu būtība, izpildes laiki
+- Remontdarbu lokācijas
 
 ## Lietotāja saskarne
 [Links uz wireframe] (https://docs.google.com/drawings/d/1BTStCXCkEaJjwsN2SbMaVdI2Nk7xYo7NSwr3GvdNUA0/edit?usp=sharing)
