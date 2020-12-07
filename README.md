@@ -1,0 +1,23 @@
+# Remontdarbi
+
+Tā kā skolai ir 3 korpusi (lielā skola, mazā skola jeb bērnudārzs, internāts), tad lai kāds no skolā strādājošajiem varētu pateikt skolas saimniekam kādu nepieciešamo remontdarbu, tad visiem ir jāiet uz „lielās skolas” Metodisko kabinetu un sava ķibele jāieraksta Remontdarbu žurnālā. Kā esmu ievērojusi, tad izpildes laiks nav ļoti ātrs, jo saimnieks neienāk katru dienu un nepārbauda, tāpēc šie sīkie remontdarbi bieži vien ievelkas ļoti ilgi.  
+
+## Sīkos remontdarbu uzskaites sistēma
+Sistēmas mērķis ir nodrošināt ātru sīkos remontdarbu pieteikšanu, neapmeklējot „lielās” skolas Metodisko kabinetu. Sistēma nodrošinās iespēju skolas darbiniekiem pieteikt remontdarbu, neatkarīgi no tā, kurā skolas korpusā atrodas un skolas saimnieks no sava kabineta varēs apskatīties veicamos darbu sarakstu.
+
+## Lietotāji un lomas
+Sistēmai ir vairāki lietotāji, un tai ir jānodrošina šo lietotāju autentifikācija, lai to nevarētu izmantot kāds cits. Katrs lietotājs var ieņemt vienu no sekojošām lomām: skolotājs, tehniskais darbinieks un saimnieks.
+
+## Skolotājs, tehniskais darbinieks
+Skolotāja un tehniskā darbinieka loma ietver pamanīta remontdarba nepieciešamība norādot korpusu, vietu skolā (mācību kabinets), apraksta pievienošana un datumu, kad pieteikts. 
+
+## Saimnieks
+Saimnieks saņem pieteiktos remontdarbu sarakstu un veic šo remontdarbu norādot datumu, kad tas ir izpildīts.
+
+## Datu klases
+-	Lietotāji ar lomām
+-	Remontdarbu būtība, izpildes laiki
+- Remontdarbu lokācijas
+
+## Lietotāja saskarne
+[Links uz wireframe] (https://docs.google.com/drawings/d/1BTStCXCkEaJjwsN2SbMaVdI2Nk7xYo7NSwr3GvdNUA0/edit?usp=sharing)
