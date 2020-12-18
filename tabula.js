@@ -44,8 +44,8 @@ PogaVisi.addEventListener('click', function(){
         tabulasRindas.innerHTML += 
         `<tr>
         <td>${i+1}.</td>
-        <td>${randKorp+1}. Korpuss</td>
         <td>${Math.floor(Math.random() * 30)+1}.${Math.floor(Math.random() * 12)+1}.2020</td>
+        <td>${randKorp+1}. Korpuss</td>       
         <td>${kabineti[randKab]}</td>
         <td>${apraksti[randApr]}</td>
         `;
@@ -54,11 +54,42 @@ PogaVisi.addEventListener('click', function(){
   
 });
 
+const PogaJason = document.getElementById('PogaJason');
+PogaJason.addEventListener('click', function(){
+  
+  let tabulasRindasJason = document.querySelector('.rindas');
+  tabulasRindasJason.innerHTML = '';
+  var txt = `"Datums":"12.02.2020", "Korpuss":1, "Kabinets":"352.kab."], 
+             ["Datums":"16.03.2020", "Korpuss":2, "Kabinets":"111.kab."]] 
+    `;
+    var obj = JSON.parse(txt);
+    console.log(obj);
+
+
+});
+
 
 }
-
-
-
 // beidzas funkcija init(), kura gaida, kamēr ieladēsies html lapa
 
 
+ /* for (e, o = [], r = 0; r < e.length; r++)
+      for (var t in e[r])-1 === o.indexOf(t) && o.push(t);
+
+  var n = document.createElement("table"), a = n.insertRow(-1);
+  for (r = 0; r < o.length; r++) {
+      var i = document.createElement("th");
+      i.innerHTML = o[r], a.appendChild(i)
+  }
+  for (r = 0; r < e.length; r++) {
+      a = n.insertRow(-1);
+      for (var c = 0; c < o.length; c++) {
+          a.insertCell(-1).innerHTML = e[r][o[c]]
+      }
+  }
+  var l = document.getElementById("showData"); 
+  n.setAttribute('id', 'tab'); l.innerHTML = "", l.appendChild(n) 
+*/
+
+
+// beidzas CreateTableFromJSON
