@@ -1,0 +1,61 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #d1e2fac2;
+}
+
+button {
+    font-size: medium;
+    padding: 20px 20px 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#PogaPieteikt {
+    background-color: #e0c6c7;
+}
+#PogaIzpilditi {
+    background-color: #b4ad1f;
+}
+#PogaNepabeigti {
+    background-color: #d2986a;
+}
+#PogaVisi {
+    background-color: #b4dbf8;
+}
+
+.tabula {
+    width: calc(100% - 128px);
+    margin: 10px 64px;   
+    border-spacing: 0 8px;
+    text-align: center;
+}
+.tabula tr {
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 300;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.05);
+}
+.tabula th {
+    height: 24px;
+    line-height: 24px;
+    background-color: #614631;
+    color: white; 
+}
+.tabula td,
+.tabula th {
+    padding: 12px 10px;
+}
+.tabula td {
+    color: #001B36;
+}
+
+.pieteikums {
+    background-color: #fadfe0b0;
+}
+.izpildits {
+    background-color: #e4eb9fb9;
+}
+
+.slepts {
+    display: none; 
+}
