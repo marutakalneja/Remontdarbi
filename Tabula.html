@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Remontdarbi</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='tabula.css'>
+    <script type="text/javascript" src='Kabineti.js'></script>
+    <script src='tabula.js'></script>
+</head>
+<body onload="init()">
+    <div>
+        <button id="PogaPieteikt" onclick= "document.location='pieteikums.html'">Pieteikt Remontu</button>
+        <button id="PogaIzpilditi">Parādīt tikai Izpildītus remontus</button>
+        <button id="PogaNepabeigti">Parādīt tikai Nepabeigtus remontus</button>
+        <button id="PogaVisi">Parādīt Nejaušus datus</button>    
+        <button id="PogaJason">Parādīt Jason datus</button>       
+
+        <table class="tabula">
+            <thead>
+                <tr>
+                    <th>Nr.</th>
+                    <th>Datums</th>
+                    <th>Korpuss</th>
+                    <th>Kabinets</th>
+                    <th>Apraksts</th>
+                </tr>
+            </thead>
+            <tbody class = rindas>
+                <tr class="pieteikums">
+                    <td>1.</td>
+                    <td>10.11.2020</td>
+                    <td>1. korpuss</td>
+                    <td>352. kab.</td>
+                    <td>Nedeg lampiņa</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr class="pieteikums">
+                    <td>2.</td>
+                    <td>23.11.2020</td>
+                    <td>2. korpuss</td>
+                    <td>352. kab.</td>
+                    <td>Joprojām nedeg lampiņa</td>
+                    <td>&nbsp;</td>
+                </tr>    
+                <tr class="izpildits">
+                    <td>3.</td>
+                    <td>07.12.2020</td>
+                    <td>1. korpuss</td>
+                    <td>111. kab.</td>
+                    <td>Lampiņu nomainījām</td>
+                    <td>&nbsp;</td>
+                </tr>                     
+                <tr class="pieteikums">
+                    <td>4.</td>
+                    <td>07.12.2020</td>
+                    <td>1. korpuss</td>
+                    <td>111. kab.</td>
+                    <td>Salauzsts krēsls</td>
+                    <td>&nbsp;</td>
+                </tr>            
+                <tr class="pieteikums">
+                    <td>5.</td>
+                    <td>07.12.2020</td>
+                    <td>1. korpuss</td>
+                    <td>112. kab.</td>
+                    <td>Salauzsts krēsls</td>
+                    <td>&nbsp;</td>
+                </tr>    
+                <tr class="izpildits">
+                    <td>6.</td>
+                    <td>07.12.2020</td>
+                    <td>1. korpuss</td>
+                    <td>112. kab.</td>
+                    <td>Krēsls aiznests</td>
+                    <td>&nbsp;</td>
+                </tr>    
+            <tbody>
+        </table>       
+    </div>
+</body>
+</html>
