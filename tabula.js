@@ -1,3 +1,6 @@
+const kabineti = Kabineti;
+
+
 function init () {
 
 const PogaIzpilditi = document.getElementById('PogaIzpilditi');
@@ -29,14 +32,14 @@ PogaNepabeigti.addEventListener('click', function() {
 const PogaVisi = document.getElementById('PogaVisi');
 PogaVisi.addEventListener('click', function(){
 
-    const kabineti = ["11. kab", "Lielais koridors", "352.kab.", "111.kab.", "102.kab", "119.kab.", "Zāle"];
+    //const kabineti = ["11. kab", "Lielais koridors", "352.kab.", "111.kab.", "102.kab", "119.kab.", "Zāle"];
     const apraksti = ["Nedeg lampiņa", "Neslēdzas durvis", "Nestrādā kaut kas", "Salauzsts krēsls", "Bojāta siena"];
     
     let rinduSkaits = Math.floor(Math.random() * 3)+5;
 
     let tabulasRindas = document.querySelector('.rindas');
     tabulasRindas.innerHTML = '';
-    for (let i = 0; i < rinduSkaits; i++)
+    for (let i = 0; i < kabineti.length; i++)
        {
         let randKorp = Math.floor(Math.random() * 4);
         let randKab = Math.floor(Math.random() * kabineti.length);
@@ -45,8 +48,8 @@ PogaVisi.addEventListener('click', function(){
         `<tr>
         <td>${i+1}.</td>
         <td>${Math.floor(Math.random() * 30)+1}.${Math.floor(Math.random() * 12)+1}.2020</td>
-        <td>${randKorp+1}. Korpuss</td>       
-        <td>${kabineti[randKab]}</td>
+        <td>${kabineti[i].Stavs} Korpuss</td>       
+        <td>${kabineti[i].Vards}</td>
         <td>${apraksti[randApr]}</td>
         `;
        }
@@ -59,11 +62,7 @@ PogaJason.addEventListener('click', function(){
   
   let tabulasRindasJason = document.querySelector('.rindas');
   tabulasRindasJason.innerHTML = '';
-  var txt = `"Datums":"12.02.2020", "Korpuss":1, "Kabinets":"352.kab."], 
-             ["Datums":"16.03.2020", "Korpuss":2, "Kabinets":"111.kab."]] 
-    `;
-    var obj = JSON.parse(txt);
-    console.log(obj);
+
 
 
 });
