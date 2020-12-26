@@ -41,8 +41,8 @@ PogaVisi.addEventListener('click', function(){
     tabulasRindas.innerHTML = '';
     for (let i = 0; i < kabineti.length; i++)
        {
-        let randKorp = Math.floor(Math.random() * 4);
-        let randKab = Math.floor(Math.random() * kabineti.length);
+//      let randKorp = Math.floor(Math.random() * 4);
+//      let randKab = Math.floor(Math.random() * kabineti.length);
         let randApr = Math.floor(Math.random() * apraksti.length);
         tabulasRindas.innerHTML += 
         `<tr>
@@ -62,8 +62,6 @@ PogaJason.addEventListener('click', function(){
   
   let tabulasRindasJason = document.querySelector('.rindas');
   tabulasRindasJason.innerHTML = '';
-
-
 
 });
 
