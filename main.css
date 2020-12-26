@@ -1,0 +1,168 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  
+  .laiks {position: absolute;
+    width: 634px;
+    height: 472px;
+    left: 417px;
+    top: 215px;
+    padding: 20px 50px;
+    
+    background: #C4C4C4;}
+
+.titul {
+    
+
+font-family: Calibri;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 78px;
+
+color: #000000;
+}
+
+input[type="text" i] {
+    padding: 1px 2px;
+}
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textfield;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 40px Arial;
+   
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    border-radius: 2px;
+    
+width: 398px;
+height: 67px;
+left: 503px;
+top: 396px;
+
+background: #FFF2F2;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+      
+
+
+
+/*
+.poga1{
+
+width: 527px;
+height: 73px;
+left: 457px;
+top: 592px;
+
+background: #213D5E;
+}
+
+
+
+html, body {
+    height: 100vh;
+    background-color: lightblue
+}
+.kr-kolonna {
+    
+    background: linear-gradient(180deg, #0084F8 0%, #00C6FF 100%);
+
+
+
+}
+
+.lab-kolonna {
+background: azure;
+}
+.sveiciens {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    width: 361px;
+    height: 140px;
+    left: 121px;
+    top: 128px;
+    
+   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 70px;
+    /* or 130% */
+    
+    text-align: center;
+    
+    /* primary/white */
+    
+    color: #FFFFFF;
+}
+*/
