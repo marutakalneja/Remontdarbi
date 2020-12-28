@@ -45,6 +45,7 @@ PogaVisi.addEventListener('click', function(){
 //      let randKab = Math.floor(Math.random() * kabineti.length);
         let randApr = Math.floor(Math.random() * apraksti.length);
         tabulasRindas.innerHTML += 
+        
         `<tr>
         <td>${i+1}.</td>
         <td>${Math.floor(Math.random() * 30)+1}.${Math.floor(Math.random() * 12)+1}.2020</td>
