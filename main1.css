@@ -13,31 +13,30 @@ top: 0px;
     text-align: center;
     
   }
-  h2 {
-    color: white;
-    text-align: center;
-    
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
   }
   
-
-  
-.lauks {position: absolute;
-    width: 620px;
-height: 570px;
-left: 417px;
-top: 100px;
-text-align: center;
-   
+  .laiks {position: absolute;
+    width: 878px;
+    height: 500px;
+    left: 311px;
+    top: 195px;
     
-    background: #C4C4C4;}
+    background: #C4C4C4;
 
 .titul {
+    
 
-font-size: 25px;
+font-family: Calibri;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 78px;
 
-text-align: center;
-
-color: #c51212;
+color: #000000;
 }
 
 input[type="text" i] {
@@ -125,6 +124,7 @@ a.button {
     padding: 20px 30px 20px;
     margin-top: 20px;
     margin-left: 40px;
+  
 }
 #PogaPieteikt {
     background-color: #e0c6c7;
